@@ -1,0 +1,13 @@
+Input:
+    - tensors (cooridinates, one-hot for every categorical)
+    - fixed number of ligand atoms
+    - molecules with coordinates and categorical features (type of atom etc.)
+    - two types:
+    - protein pocket atoms
+    - ligand atoms
+
+Output:
+    - generated ligand with high affinity, to easily bind to specific pocket
+    - tensors (cooridinates, one-hot for every categorical)
+    - same features as in Input
+
